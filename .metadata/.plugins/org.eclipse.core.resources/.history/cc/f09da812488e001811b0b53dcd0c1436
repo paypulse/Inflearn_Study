@@ -1,0 +1,21 @@
+package com.javalec.ex;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MyController {
+	
+	/*제대로 응답하게 하기 위한 메소드가 되게 하려면*/
+	@RequestMapping("/view")
+	/*반환 해주는 값이 jsp의 페이지 이름에 해당 한다.*/
+	public String view(){
+		return "view";
+	}
+	
+	@RequestMapping("/contents/contentsView")
+	public String contentView(Model model){
+		return "contents/contentsView";
+	}
+
+}
