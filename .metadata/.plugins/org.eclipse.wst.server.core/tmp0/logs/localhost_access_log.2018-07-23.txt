@@ -39,3 +39,13 @@
 0:0:0:0:0:0:0:1 - - [23/Jul/2018:17:17:59 +0900] "GET /ex/board/view1 HTTP/1.1" 404 1069
 0:0:0:0:0:0:0:1 - - [23/Jul/2018:17:18:03 +0900] "GET /ex/board/view1 HTTP/1.1" 404 1069
 0:0:0:0:0:0:0:1 - - [23/Jul/2018:17:18:04 +0900] "GET /ex/board/view1 HTTP/1.1" 404 1069
+127.0.0.1 - - [23/Jul/2018:18:07:24 +0900] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:07:24 +0900] "GET /ex/WEB-INF/views/member/memberView.jsp HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:07:37 +0900] "GET /ex/member/memberView HTTP/1.1" 200 285
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:08:46 +0900] "GET /ex/member/memberView?id=abcde&pw=2343 HTTP/1.1" 200 294
+127.0.0.1 - - [23/Jul/2018:18:18:12 +0900] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:18:12 +0900] "GET /ex/WEB-INF/views/member/confirm.jsp HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:18:22 +0900] "GET /ex/member/confirm HTTP/1.1" 400 1093
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:18:18:36 +0900] "GET /ex/member/confirm HTTP/1.1" 400 1093
+127.0.0.1 - - [23/Jul/2018:23:04:49 +0900] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [23/Jul/2018:23:04:50 +0900] "GET /ex/WEB-INF/classes/com/javalec/ex/HomeController.java HTTP/1.1" 404 1013

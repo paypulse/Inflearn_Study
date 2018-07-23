@@ -1,0 +1,13 @@
+div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring REST Docs 2.0.2.RELEASE</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/07/19/spring-rest-docs-2-0-2-release" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-07-19:3334</id>
+    <updated>2018-07-19T17:28:45Z</updated>
+    <content type="html">&lt;p&gt;It&amp;rsquo;s my pleasure to announce that &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;Spring REST Docs&lt;/a&gt; 2.0.2.RELEASE is available from Maven Centr
